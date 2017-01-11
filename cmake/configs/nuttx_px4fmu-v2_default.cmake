@@ -153,6 +153,10 @@ set(config_module_list
 	platforms/common
 	platforms/nuttx/px4_layer
 
+        # lead_me_app
+        # -----------
+        examples/px4_lead_me
+
 	#
 	# OBC challenge
 	#
@@ -169,7 +173,7 @@ set(config_module_list
 	#examples/math_demo
 	# Tutorial code from
 	# https://px4.io/dev/px4_simple_app
-	#examples/px4_simple_app
+        examples/px4_simple_app
 
 	# Tutorial code from
 	# https://px4.io/dev/daemon
